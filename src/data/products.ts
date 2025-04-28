@@ -1,0 +1,172 @@
+import { Product } from '../types/product';
+
+export const productData: Product[] = [
+  {
+    id: 1,
+    name: "NeuroLink X1",
+    category: "Neural Interface",
+    image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$149,999",
+    description: "Direct brain-computer interface with advanced neural mapping capabilities. Features natural thought control and enhanced cognitive processing.",
+    rating: 5,
+    reviewCount: 28,
+    isNew: true,
+    features: ["neural-feedback", "military-grade", "ai-powered"]
+  },
+  {
+    id: 2,
+    name: "Bionic Arm Pro",
+    category: "Prosthetics",
+    image: "https://images.pexels.com/photos/8566455/pexels-photo-8566455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$89,999",
+    description: "Military-grade prosthetic with enhanced strength and precision. Features neural feedback for realistic sensations and adaptive grip technology.",
+    rating: 4.9,
+    reviewCount: 42,
+    isNew: false,
+    features: ["neural-feedback", "waterproof", "military-grade"]
+  },
+  {
+    id: 3,
+    name: "OculTech Vision",
+    category: "Ocular Enhancement",
+    image: "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$74,999",
+    description: "Advanced vision system with night vision and AR capabilities. Features 20x optical zoom and real-time environmental analysis.",
+    rating: 4.7,
+    reviewCount: 36,
+    isNew: true,
+    features: ["neural-feedback", "night-vision", "ai-powered"]
+  },
+  {
+    id: 4,
+    name: "SynCore Heart",
+    category: "Synthetic Organs",
+    image: "https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$234,999",
+    description: "Next-generation synthetic heart with 300% efficiency compared to biological hearts. Self-regulating and comes with a 50-year warranty.",
+    rating: 4.9,
+    reviewCount: 17,
+    isNew: false,
+    features: ["waterproof", "military-grade"]
+  },
+  {
+    id: 5,
+    name: "Exo-Leg Elite",
+    category: "Exoskeletons",
+    image: "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$124,999",
+    description: "Full lower-body exoskeleton providing enhanced strength, speed, and endurance. Military-grade construction with neural adaptation system.",
+    rating: 4.5,
+    reviewCount: 23,
+    isNew: false,
+    features: ["neural-feedback", "waterproof", "military-grade"]
+  },
+  {
+    id: 6,
+    name: "CogniFlex Neural Enhancer",
+    category: "Neural Interface",
+    image: "https://images.pexels.com/photos/4381392/pexels-photo-4381392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$95,999",
+    description: "Cognitive enhancement neural implant that increases memory capacity, processing speed, and learning abilities by up to 200%.",
+    rating: 4.8,
+    reviewCount: 19,
+    isNew: true,
+    features: ["neural-feedback", "ai-powered"]
+  },
+  {
+    id: 7,
+    name: "PulseTech Cardiac System",
+    category: "Synthetic Organs",
+    image: "https://images.pexels.com/photos/6074935/pexels-photo-6074935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$189,999",
+    description: "Advanced cardiac replacement with integrated health monitoring and automatic medication dispensing systems.",
+    rating: 4.6,
+    reviewCount: 14,
+    isNew: false,
+    features: ["waterproof", "ai-powered"]
+  },
+  {
+    id: 8,
+    name: "TactileSense Hand",
+    category: "Prosthetics",
+    image: "https://images.pexels.com/photos/8544583/pexels-photo-8544583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$64,999",
+    description: "High-sensitivity prosthetic hand with temperature and texture recognition. Features 27 articulation points for unmatched dexterity.",
+    rating: 4.7,
+    reviewCount: 31,
+    isNew: false,
+    features: ["neural-feedback", "waterproof"]
+  },
+  {
+    id: 9,
+    name: "RespiraLung Augment",
+    category: "Synthetic Organs",
+    image: "https://images.pexels.com/photos/8438445/pexels-photo-8438445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$142,999",
+    description: "Enhanced respiratory system capable of functioning in low-oxygen environments. Includes atmospheric contaminant filtering.",
+    rating: 4.5,
+    reviewCount: 22,
+    isNew: false,
+    features: ["waterproof", "military-grade"]
+  },
+  {
+    id: 10,
+    name: "NeuroVision Elite",
+    category: "Ocular Enhancement",
+    image: "https://images.pexels.com/photos/5726797/pexels-photo-5726797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$84,999",
+    description: "Premium ocular replacement with spectrum vision beyond human capabilities, including infrared and ultraviolet perception.",
+    rating: 4.8,
+    reviewCount: 26,
+    isNew: true,
+    features: ["neural-feedback", "night-vision", "ai-powered"]
+  },
+  {
+    id: 11,
+    name: "VertebRex Spine System",
+    category: "Exoskeletons",
+    image: "https://images.pexels.com/photos/8439997/pexels-photo-8439997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$176,999",
+    description: "Full spinal replacement and exoskeleton providing enhanced strength and injury protection while maintaining natural movement.",
+    rating: 4.6,
+    reviewCount: 18,
+    isNew: false,
+    features: ["neural-feedback", "military-grade"]
+  },
+  {
+    id: 12,
+    name: "NeuroPilot Mobility Assist",
+    category: "Neural Interface",
+    image: "https://images.pexels.com/photos/8368798/pexels-photo-8368798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$54,999",
+    description: "Entry-level neural interface designed for controlling mobility assistance devices with thought alone. Perfect starter cybernetic.",
+    rating: 4.4,
+    reviewCount: 45,
+    isNew: false,
+    features: ["neural-feedback", "ai-powered"]
+  },
+  {
+    id: 13,
+    name: "HydraTech Filtration System",
+    category: "Synthetic Organs",
+    image: "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$129,999",
+    description: "Advanced kidney replacement with superior filtration capabilities and toxin removal. Reduces need for external hydration by 60%.",
+    rating: 4.7,
+    reviewCount: 12,
+    isNew: true,
+    features: ["waterproof"]
+  },
+  {
+    id: 14,
+    name: "AudiTech Cochlear System",
+    category: "Prosthetics",
+    image: "https://images.pexels.com/photos/3912572/pexels-photo-3912572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    price: "$49,999",
+    description: "Enhanced hearing system with selective audio filtering, extended frequency range, and underwater functionality.",
+    rating: 4.5,
+    reviewCount: 29,
+    isNew: false,
+    features: ["neural-feedback", "waterproof"]
+  }
+];

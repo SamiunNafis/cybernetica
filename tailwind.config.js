@@ -1,0 +1,72 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f5f3ff',
+          100: '#ede9fe',
+          200: '#ddd6fe',
+          300: '#c4b5fd',
+          400: '#a78bfa',
+          500: '#8b5cf6',
+          600: '#7c3aed',
+          700: '#6d28d9',
+          800: '#5b21b6',
+          900: '#4c1d95',
+          950: '#2e1065',
+        },
+        secondary: {
+          50: '#edfcfd',
+          100: '#d2f5fa',
+          200: '#aaeaf5',
+          300: '#72d8ec',
+          400: '#30bbda',
+          500: '#16a3c7',
+          600: '#1182a5',
+          700: '#136886',
+          800: '#155670',
+          900: '#17485e',
+          950: '#0b2e3e',
+        },
+        accent: {
+          50: '#eef2ff',
+          100: '#e0e7ff',
+          200: '#c7d2fe',
+          300: '#a5b4fc',
+          400: '#818cf8',
+          500: '#6366f1',
+          600: '#4f46e5',
+          700: '#4338ca',
+          800: '#3730a3',
+          900: '#312e81',
+          950: '#1e1b4b',
+        },
+        dark: {
+          100: '#282843',
+          200: '#232339',
+          300: '#1e1e30',
+          400: '#1A1A2E',
+          500: '#151525',
+          600: '#10101c',
+          700: '#0b0b12',
+          800: '#050509',
+          900: '#000000',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        display: ['Exo 2', 'sans-serif'],
+      },
+      boxShadow: {
+        glow: '0 0 15px rgba(139, 92, 246, 0.5)',
+        'glow-strong': '0 0 30px rgba(139, 92, 246, 0.7)',
+      },
+      animation: {
+        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      },
+    },
+  },
+  plugins: [],
+};
