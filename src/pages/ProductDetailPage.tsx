@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Star, Shield, Zap, Brain } from 'lucide-react';
+import { ArrowLeft, Star, Shield, Zap, Brain, Droplet, Eye } from 'lucide-react';
 import { productData } from '../data/products';
 
 const ProductDetailPage: React.FC = () => {
@@ -96,6 +96,9 @@ const ProductDetailPage: React.FC = () => {
                     {feature === 'neural-feedback' && <Brain className="h-5 w-5 text-primary-400" />}
                     {feature === 'military-grade' && <Shield className="h-5 w-5 text-primary-400" />}
                     {feature === 'ai-powered' && <Zap className="h-5 w-5 text-primary-400" />}
+                    {feature === 'waterproof' && <Droplet className="h-5 w-5 text-primary-400" />}
+                    {feature === 'high-performance' && <Star className="h-5 w-5 text-primary-400" />}
+                    {feature === 'night-vision' && <Eye className="h-5 w-5 text-primary-400" />}
                     <span className="text-gray-300 capitalize">{feature.replace('-', ' ')}</span>
                   </div>
                 ))}
@@ -104,7 +107,7 @@ const ProductDetailPage: React.FC = () => {
 
             <div className="border-t border-gray-800 pt-6">
               <button 
-                onClick={() => alert('Contact form will be implemented')}
+                onClick={() => navigate('/contact-sales')}
                 className="w-full bg-gradient-to-r from-primary-600 to-accent-600 text-white py-3 rounded-lg font-medium hover:shadow-glow transition-all duration-300"
               >
                 Contact Sales

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Brain, Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import { Brain, Facebook, Github, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -20,17 +20,17 @@ const Footer: React.FC = () => {
               We're redefining the boundaries of human potential.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
+              <a href="https://www.facebook.com/im.samiun" className="text-gray-400 hover:text-primary-400 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href="https://github.com/SamiunNafis" className="text-gray-400 hover:text-primary-400 transition-colors">
+                <Github className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
+              <a href="https://instagram.com/SamiunNafis" className="text-gray-400 hover:text-primary-400 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
-                <Youtube className="h-5 w-5" />
+              <a href="https://twitter.com/SamiunNafis/" className="text-gray-400 hover:text-primary-400 transition-colors">
+                <Twitter className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -89,15 +89,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary-500 mt-0.5" />
-                <span className="text-sm">Neo-Tokyo Tower, District 7, Japan</span>
+                <span className="text-sm">26 BN HQ, Peelkhana, Dhaka</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary-500" />
-                <span className="text-sm">+1 (800) CYBER-00</span>
+                <span className="text-sm">+880 1888-039-128</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary-500" />
-                <span className="text-sm">info@cybernetica.tech</span>
+                <span className="text-sm">luea099@gmail.com</span>
               </li>
             </ul>
             <div className="mt-6">

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { Search, SlidersHorizontal, Layout, LayoutGrid, ChevronDown } from 'lucide-react';
 import ProductCard from '../components/products/ProductCard';
 import ProductFilter from '../components/products/ProductFilter';
@@ -75,7 +74,7 @@ const ProductsPage: React.FC = () => {
 
     // Apply price range filters
     if (activeFilters.priceRanges.length > 0) {
-      // This is a simplification - in a real app you'd match actual price ranges
+      // This is a simplification - in a real app this would be more complex
       if (activeFilters.priceRanges.includes('budget')) {
         result = result.filter(product => parseInt(product.price.replace(/\D/g, '')) < 50000);
       }

@@ -155,7 +155,7 @@ export const productData: Product[] = [
     rating: 4.7,
     reviewCount: 12,
     isNew: true,
-    features: ["waterproof"]
+    features: ["waterproof", "high-performance"]
   },
   {
     id: 14,
