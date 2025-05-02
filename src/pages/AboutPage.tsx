@@ -6,7 +6,7 @@ const teamMembers = [
   {
     name: "Samiun Nafis",
     role: "Human",
-    image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "https://scontent.fdac24-4.fna.fbcdn.net/v/t39.30808-6/472337496_1342023683624868_5600258639717854244_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF6fWQcTTRVckVSxmRDKGVP31LcoO5A8vjfUtyg7kDy-L73O4o3yW53B-MamTL3kIdQR4PO0I9VbZJo6p9MeXr4&_nc_ohc=1361M9t539cQ7kNvwFaxPLV&_nc_oc=Adnj2QiPTOoXfa3SDEGLnQIaUlXbU3KMqZ4pm9myPy0jJa3gmj2_tDxHyRXQ-WeXbCc&_nc_zt=23&_nc_ht=scontent.fdac24-4.fna&_nc_gid=_iF_VN5jon1eiqod2jyxXw&oh=00_AfFiCCsszR5PYs1p-mZZcFZ2rZ3uo79adXfSf9hONWlcwQ&oe=681A86C3",
     bio: "Leading the future of human-AI collaboration in cybernetic enhancements."
   },
   {
