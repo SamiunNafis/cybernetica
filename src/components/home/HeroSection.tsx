@@ -200,19 +200,23 @@ const HeroSection: React.FC = () => {
               </motion.div>
             </motion.div>
           ) : (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="relative h-[300px] flex justify-center items-center"
-            >
-              <div className="absolute inset-0 bg-gradient-to-b from-primary-500/20 to-transparent rounded-full blur-[100px] opacity-70" />
-              <img
-                src="https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Cybernetic Enhancement"
-                className="w-full h-full object-cover rounded-xl"
-              />
-            </motion.div>
+            //i think the website looks better without this image on mobile
+            // it was the initial idea to have an image on moble phones since the model will lag the phone
+            
+            // <motion.div
+            //   initial={{ opacity: 0, y: 20 }}
+            //   animate={{ opacity: 1, y: 0 }}
+            //   transition={{ duration: 0.6 }}
+            //   className="relative h-[300px] flex justify-center items-center"
+            // >
+            //   <div className="absolute inset-0 bg-gradient-to-b from-primary-500/20 to-transparent rounded-full blur-[100px] opacity-70" />
+            //   <img
+            //     src="https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            //     alt="Cybernetic Enhancement"
+            //     className="w-full h-full object-cover rounded-xl"
+            //   />
+            // </motion.div>
+            <></>
           )}
         </div>
       </div>
