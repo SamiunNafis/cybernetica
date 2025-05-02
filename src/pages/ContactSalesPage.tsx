@@ -87,21 +87,21 @@ const ContactSalesPage: React.FC = () => {
                   <Phone className="h-6 w-6 text-primary-400 mt-1" />
                   <div>
                     <h3 className="text-white font-medium mb-1">Phone</h3>
-                    <p className="text-gray-400">+1 (800) CYBER-00</p>
+                    <p className="text-gray-400">+880 1888-039-128</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Mail className="h-6 w-6 text-primary-400 mt-1" />
                   <div>
                     <h3 className="text-white font-medium mb-1">Email</h3>
-                    <p className="text-gray-400">sales@cybernetica.tech</p>
+                    <p className="text-gray-400">luea099@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-primary-400 mt-1" />
                   <div>
                     <h3 className="text-white font-medium mb-1">Location</h3>
-                    <p className="text-gray-400">Neo-Tokyo Tower, District 7<br />Japan</p>
+                    <p className="text-gray-400">26 BN HQ, Peelkhana<br />Dhaka, Bangladesh</p>
                   </div>
                 </div>
               </div>
